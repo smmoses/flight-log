@@ -1,0 +1,10 @@
+.banner {
+    margin: var(--margin-large-3);
+    box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.6);
+
+    p {
+        font-size: 20px;
+        padding: var(--margin-normal-3);
+        text-align: center;
+    }
+}

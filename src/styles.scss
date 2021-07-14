@@ -1,4 +1,5 @@
 @use '~@angular/material' as mat;
+@use './app/log-book/log-book.component.theme.scss' as logbook;
 
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
@@ -32,8 +33,21 @@ $flight-log-theme: mat.define-light-theme((
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
 @include mat.all-component-themes($flight-log-theme);
+@include logbook.theme($flight-log-theme);
 
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+  --margin-sm-1: 2px;
+  --margin-sm-2: 4px;
+  --margin-sm-3: 6px;
+  --margin-normal-1: 10px;
+  --margin-normal-2: 12px;
+  --margin-normal-3: 14px;
+  --margin-large-1: 18px;
+  --margin-large-2: 22px;
+  --margin-large-3: 26px;
+
+}
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
