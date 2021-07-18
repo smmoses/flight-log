@@ -26,7 +26,10 @@ $flight-log-theme: mat.define-light-theme((
     primary: $flight-log-primary,
     accent: $flight-log-accent,
     warn: $flight-log-warn,
-  )
+  ),
+  typography: mat.define-typography-config(
+    $font-family: serif
+  ),
 ));
 
 // Include theme styles for core and each component used in your app.
@@ -51,3 +54,7 @@ $flight-log-theme: mat.define-light-theme((
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  margin: var(--margin-large-3);
+}
