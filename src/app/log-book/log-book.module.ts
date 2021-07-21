@@ -6,12 +6,8 @@ import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
-  declarations: [
-    LogBookComponent,
-  ],
-  imports: [
-    CommonModule,
-    SharedModule
-  ]
+  declarations: [LogBookComponent],
+  imports: [CommonModule, SharedModule],
 })
-export class LogBookModule { }
+export class LogBookModule {
+}

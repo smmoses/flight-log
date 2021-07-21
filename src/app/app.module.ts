@@ -8,10 +8,7 @@ import { CoreModule } from './core/core.module';
 import { ShellComponent } from './shell/shell.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ShellComponent
-  ],
+  declarations: [AppComponent, ShellComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -19,6 +16,7 @@ import { ShellComponent } from './shell/shell.component';
     AppRoutingModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule {
+}
