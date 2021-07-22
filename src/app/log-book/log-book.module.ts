@@ -8,7 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [LogBookComponent],
-  imports: [CommonModule, SharedModule, FontAwesomeModule],
+  imports: [CommonModule, SharedModule],
 })
 export class LogBookModule {
 }
