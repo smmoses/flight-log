@@ -5,7 +5,12 @@
     <h2>Flight Stats</h2>
     <div class="flight-stats">
         <div class="stats-container">
-            <fa-icon [icon]="['fas', 'sun']"></fa-icon>
+            <div class="icon">
+                <fa-icon 
+                    [icon]="['fas', 'sun']"
+                    size="lg">
+                </fa-icon>
+            </div>
             <div class="stat">
                 <div>100</div>
                 <div>Hours</div>
@@ -16,6 +21,13 @@
             </div>
         </div>
         <div class="stats-container night">
+            <div class="icon">
+                <fa-icon 
+                    [icon]="['fas', 'moon']"
+                    size="lg">
+
+                </fa-icon>
+            </div>
             <div class="stat">
                 <div>100</div>
                 <div>Hours</div>

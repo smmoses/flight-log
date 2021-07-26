@@ -20,6 +20,13 @@
         box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.6);
         border-radius: 5%;
         min-width: 45%;
+        
+        .icon{
+            position: absolute;
+            padding-left: var(--margin-sm-3);
+            padding-top: var(--margin-sm-3);
+            color: #3F51B5;
+        }
 
         .stat {
             text-align: center;
@@ -46,6 +53,10 @@
     .night {
         background-color: #3F51B5;
         color: #FFFFFF;
+
+        .icon {
+            color: #FFFFFF;
+        }
     }
 }
 
