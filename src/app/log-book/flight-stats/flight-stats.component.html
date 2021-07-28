@@ -1,0 +1,16 @@
+<div class="stats-container" [ngClass]="timeOfDay">
+  <div class="icon">
+    <fa-icon 
+        [icon]="timeOfDay === 'night' ? ['fas', 'moon'] : ['fas', 'sun']" 
+        size="lg">
+    </fa-icon>
+  </div>
+  <div class="stat">
+    <div>100</div>
+    <div>Hours</div>
+  </div>
+  <div class="stat">
+    <div>40</div>
+    <div>Landings</div>
+  </div>
+</div>

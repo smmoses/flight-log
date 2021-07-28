@@ -13,50 +13,8 @@
     flex-direction: row;
     justify-content: space-between;
 
-    .stats-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 0 3px 6px  rgba(0, 0, 0, 0.6);
-        border-radius: 5%;
+    app-flight-stats {
         min-width: 45%;
-        
-        .icon{
-            position: absolute;
-            padding-left: var(--margin-sm-3);
-            padding-top: var(--margin-sm-3);
-            color: #3F51B5;
-        }
-
-        .stat {
-            text-align: center;
-            padding: 1em 0;
-
-            // The number
-            div:first-child {
-                font-size: 30px;
-                font-weight: 700;
-                padding-bottom: .2em;
-            }
-
-            // The category
-            div:last-child {
-                font-size: 20px;
-                font-weight: 500;
-
-            }
-        }
-    
-    }
-
-    // TODO: Make this somehow themed.
-    .night {
-        background-color: #3F51B5;
-        color: #FFFFFF;
-
-        .icon {
-            color: #FFFFFF;
-        }
     }
 }
 
