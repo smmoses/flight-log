@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faPlus, faSun } from '@fortawesome/free-solid-svg-icons';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -13,6 +13,6 @@ export class SharedModule {
    *
    */
   constructor(library: FaIconLibrary) {
-    library.addIcons(faSun, faMoon);
+    library.addIcons(faSun, faMoon, faPlus);
   }
 }

@@ -28,7 +28,7 @@ $flight-log-theme: mat.define-light-theme((
     warn: $flight-log-warn,
   ),
   typography: mat.define-typography-config(
-    $font-family: serif
+    $font-family: sans-serif
   ),
 ));
 
